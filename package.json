@@ -2,8 +2,12 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Dhruv Pathak",
   "license": "MIT",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
